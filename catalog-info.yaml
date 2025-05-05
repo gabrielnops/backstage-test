@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nops-backstage-app
+  description: Nops-backstage-app
+  tags:
+    - nops
+spec:
+  type: website
+  lifecycle: development
+  owner: devops
